@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - Gustavo</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/e3491c0127.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <h1>G U S T A V O</h1>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="https://github.com/gscruz627">Github</a></li>
+        </ul>
+    </nav>
+
+    <section id="head-container">
+        <h1 id="big-g">G</h1>
+        <div>
+            <h2>Gustavo La Cruz</h2>
+            <p><i class="fa-solid fa-graduation-cap"></i> Computer Science and Applied Math Student</p>
+            <p style="color:gray;"><i class="fa-solid fa-map-location-dot"></i>&nbsp; Southwest Minnesota State
+                University</p>
+            <ul id="icon-container">
+                <li><a href="https://github.com/gscruz627"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://leetcode.com/gscruz627/"><img src="https://cdn.iconscout.com/icon/free/png-512/leetcode-3628885-3030025.png" width="20"></a></li>
+                <li><a href="https://www.linkedin.com/in/gustavo-la-cruz-68abb823b/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p style="color:gray">Hello, I am Gustavo, I enjoy taking on challenging ideas in coding
+            and the mathematics. I practice and learn about programming technologies to further my
+            knowledge and eventually apply them at a project or on the workplace. <br>I am open for an
+            oportunity as a Software Engineer intern, mostly on Full Stack or Back End engineering.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2> Projects</h2><br />
+
+        <div>
+            <small>1.</small>
+            <div>
+                <h3>Books App &nbsp; <a href="https://booksapp-gl.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+                <p>Developed a web app where users can search for Books using an external API, save and
+                    edit them. There is a section for users to see a virtual bookshelf for each category
+                    the user may add. The web app is fully responsive.
+                </p>
+                <small class="lower">ReactJS • States/Hooks • Redux Toolkit • Asynchronous Programming • Flask • Python
+                    • SQLAlchemy • PostgreSQL</small>
+                <br />
+                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-1')"></i></button>
+                <div class="img-container" id="img-c-1" style="display:none">
+                    <img src="https://raw.githubusercontent.com/gscruz627/booksapp/master/misc/Screenshot%202023-12-17%20155736.png" width="100%" alt="Book app, search feature"/>
+                    <img src="https://raw.githubusercontent.com/gscruz627/booksapp/master/misc/Screenshot%202023-12-17%20162213.png" width="100%" alt="Book app, library feature">
+                    <img src="https://raw.githubusercontent.com/gscruz627/booksapp/master/misc/Screenshot%202023-12-17%20155534.png" width="100%" alt="Book app, add book feature"> 
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <small>2.</small>
+            <div>
+                <h3>MP3 Downloader &nbsp; <a href="https://gmp3downloads.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+                <p>Developed an MP3 downloader for Youtube videos and music using an external API. Users can also see
+                    previously converted URLs if signed up.
+                </p>
+                <small class="lower"> ReactJS • Flask • External API • SQLAlchemy • PostgreSQL</small>
+                <br />
+                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-2')"></i></button>
+                <div class="img-container" id="img-c-2" style="display:none">
+                    <img src="https://raw.githubusercontent.com/gscruz627/mp3downloader/master/client/public/mp3_convert.png" width="100%" alt="MP3 Converter, result page"/>
+                    <img src="https://raw.githubusercontent.com/gscruz627/mp3downloader/master/client/public/mp3_res.png" width="100%" alt="MP3 responsive site"/>
+                </div>
+            </div>
+        </div>
+
+        <!--<div>
+            <small>3.</small>
+            <div>
+                <h3>Command controller</h3>
+                <p>Developed ...</p>
+                <small class="lower"> Java • Spring Boot • Spring MVC</small>
+                <br />
+                <button class="image-toggle"><i class="fa-solid fa-image"></i></button>
+            </div>
+        </div>-->
+
+        <div>
+            <small>3. </small>
+            <div>
+                <h3>Social Network App &nbsp;<a href="https://glc-social.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+                <p>Developed a complete social network application, with users, registration and authentication. Users
+                    can
+                    post stories, comment, and filter results. Also allowing users to search for other users or posts.
+                    Featuring
+                    a dark/light theme, the website is also fully responsive.
+                </p>
+                <small class="lower">ReactJS • Redux Toolkit • JSX • ExpressJS • MaterialUI • Material Icons • MongoDB •
+                    Mongoose • Formik</small>
+                <br />
+                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-4')"></i></button>
+                <div class="img-container" id="img-c-4" style="display:none">
+                    <img src="https://raw.githubusercontent.com/gscruz627/SocialNetworkApp/master/client/public/pic1.png" width="100%" alt="Social Network App, main page and post"/>
+                    <img src="https://raw.githubusercontent.com/gscruz627/SocialNetworkApp/master/client/public/pic2.png" width="100%" alt="Social Network App, post and comments"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <p>Thank You.</p>
+    </section>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
