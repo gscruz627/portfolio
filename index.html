@@ -19,7 +19,7 @@
     </nav>
 
     <section id="head-container">
-        <h1 id="big-g">G</h1>
+        <img width="100" style="margin-left: 35px; border-radius: 10px;"src="https://avatars.githubusercontent.com/u/87790100?s=400&u=8ad65fa5a8ddd3f9ebcb831c95f352b40a408b9b&v=4"/>
         <div>
             <h2>Gustavo La Cruz</h2>
             <p><i class="fa-solid fa-graduation-cap"></i> Computer Science and Applied Math Student</p>
@@ -27,7 +27,6 @@
                 University</p>
             <ul id="icon-container">
                 <li><a href="https://github.com/gscruz627"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://leetcode.com/gscruz627/"><img src="https://cdn.iconscout.com/icon/free/png-512/leetcode-3628885-3030025.png" width="20"></a></li>
                 <li><a href="https://www.linkedin.com/in/gustavo-la-cruz-68abb823b/"><i class="fa-brands fa-linkedin"></i></a></li>
             </ul>
         </div>
@@ -36,10 +35,22 @@
     <section id="about">
         <h2>About Me</h2>
         <p style="color:gray">Hello, I am Gustavo, I enjoy taking on challenging ideas in coding
-            and the mathematics. I practice and learn about programming technologies to further my
+            and mathematics. I practice and learn about programming technologies to further my
             knowledge and eventually apply them at a project or on the workplace. <br>I am open for an
-            oportunity as a Software Engineer intern, mostly on Full Stack or Back End engineering.
+            oportunity as a Software Engineer intern, mostly on Full Stack or Back End engineering. I have experience on
+            ASP.NET Core, React, ExpressJS (MERN Stack), and some Python.
         </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul style="color:gray">
+            <li>ASP.NET Core</li>
+            <li>C#</li>
+            <li>Javascript</li>
+            <li>ReactJS</li>
+            <li>ExpressJS</li>
+        </ul>
     </section>
 
     <section id="projects">
@@ -47,6 +58,38 @@
 
         <div>
             <small>1.</small>
+            <div>
+                <h3>Online Educational Platform &nbsp; <a href="https://learn.gustavolacruz.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+                <p>This web application is a platform where administrators can create, modify and remove courses, course sections
+                    students and instructors. Instructors can create assignments and announcements. Students can make submissions for assignments.
+                    Students can also enroll for courses. There are measures that ensure only authorized users can access certain pages, and other features.
+                </p>
+                <small class="lower">ASP NET Core • C# • EntityFramework • MS SQL Server • ReactJS • States/Hooks • Redux Toolkit • Asynchronous Programming</small>
+                <br />
+                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-1')"></i></button>
+                <div class="img-container" id="img-c-1" style="display:none">
+                    <img src="https://github.com/gscruz627/OnlineEducationalPlatform/blob/master/images/homepage.png?raw=true" width="100%" alt="Home page"/>
+                    <img src="https://github.com/gscruz627/OnlineEducationalPlatform/blob/master/images/enrollment.png?raw=true" width="100%" alt="Enrollment site">
+                    <img src="https://github.com/gscruz627/OnlineEducationalPlatform/blob/master/images/students.png?raw=true" width="100%" alt="Students site"> 
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <small>2.</small>
+            <div>
+                <h3>SnipeIT Windows Tablet Scanner App &nbsp; <a href="https://learn.gustavolacruz.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+                <p>This program runs on Python using TkInter and you connect it with your or your organization's SnipeIT instance, and it allows
+                    you to scan, either using the camera or connecting a physical barcode scanner, the barcode of the asset tag / property tag
+                    of a device and this will both audit it and update its location.
+                    This is useful for keeping track of correct location of assets / devices on an organization using SnipeIT.
+                </p>
+                <small class="lower">Python • TKInter • SnipeIT • ZXING</small>
+            </div>
+        </div><br/><br/><br/>
+
+        <div>
+            <small>3.</small>
             <div>
                 <h3>Books App &nbsp; <a href="https://booksapp-gl.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
                 <p>Developed a web app where users can search for Books using an external API, save and
@@ -56,8 +99,8 @@
                 <small class="lower">ReactJS • States/Hooks • Redux Toolkit • Asynchronous Programming • Flask • Python
                     • SQLAlchemy • PostgreSQL</small>
                 <br />
-                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-1')"></i></button>
-                <div class="img-container" id="img-c-1" style="display:none">
+                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-3')"></i></button>
+                <div class="img-container" id="img-c-3" style="display:none">
                     <img src="https://raw.githubusercontent.com/gscruz627/booksapp/master/misc/Screenshot%202023-12-17%20155736.png" width="100%" alt="Book app, search feature"/>
                     <img src="https://raw.githubusercontent.com/gscruz627/booksapp/master/misc/Screenshot%202023-12-17%20162213.png" width="100%" alt="Book app, library feature">
                     <img src="https://raw.githubusercontent.com/gscruz627/booksapp/master/misc/Screenshot%202023-12-17%20155534.png" width="100%" alt="Book app, add book feature"> 
@@ -66,7 +109,7 @@
         </div>
 
         <div>
-            <small>2.</small>
+            <small>4.</small>
             <div>
                 <h3>MP3 Downloader &nbsp; <a href="https://gmp3downloads.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
                 <p>Developed an MP3 downloader for Youtube videos and music using an external API. Users can also see
@@ -74,8 +117,8 @@
                 </p>
                 <small class="lower"> ReactJS • Flask • External API • SQLAlchemy • PostgreSQL</small>
                 <br />
-                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-2')"></i></button>
-                <div class="img-container" id="img-c-2" style="display:none">
+                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-4')"></i></button>
+                <div class="img-container" id="img-c-4" style="display:none">
                     <img src="https://raw.githubusercontent.com/gscruz627/mp3downloader/master/client/public/mp3_convert.png" width="100%" alt="MP3 Converter, result page"/>
                     <img src="https://raw.githubusercontent.com/gscruz627/mp3downloader/master/client/public/mp3_res.png" width="100%" alt="MP3 responsive site"/>
                 </div>
@@ -84,7 +127,7 @@
 
         
         <div>
-            <small>3. </small>
+            <small>5. </small>
             <div>
                 <h3>Social Network App &nbsp;<a href="https://glc-social.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
                 <p>Developed a complete social network application, with users, registration and authentication. Users
@@ -96,8 +139,8 @@
                 <small class="lower">ReactJS • Redux Toolkit • JSX • ExpressJS • MaterialUI • Material Icons • MongoDB •
                     Mongoose • Formik</small>
                     <br />
-                    <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-3')"></i></button>
-                    <div class="img-container" id="img-c-3" style="display:none">
+                    <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-5')"></i></button>
+                    <div class="img-container" id="img-c-5" style="display:none">
                         <img src="https://raw.githubusercontent.com/gscruz627/SocialNetworkApp/master/client/public/pic1.png" width="100%" alt="Social Network App, main page and post"/>
                         <img src="https://raw.githubusercontent.com/gscruz627/SocialNetworkApp/master/client/public/pic2.png" width="100%" alt="Social Network App, post and comments"/>
                     </div>
@@ -105,15 +148,15 @@
             </div>
             
             <div>
-                <small>4. </small>
+                <small>6. </small>
                 <div>
                     <h3>4 to 10 &nbsp;<a href="https://sum10-gl.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
                     <p>Developed a simple mind math game, where the user can move the math sign and numbers in order to make the operation
                     equal to 10, it has many levels and a single session progress.
                 </p>
                 <small class="lower">ReactJS • States / Hooks • Google Firebase • Responsive</small>
-                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-4')"></i></button>
-                <div class="img-container" id="img-c-4" style="display:none">
+                <button class="image-toggle"><i class="fa-solid fa-image" onclick="toggleImage('img-c-6')"></i></button>
+                <div class="img-container" id="img-c-6" style="display:none">
                     <img src="https://raw.githubusercontent.com/gscruz627/sum10/master/public/img_1.png" width="100%" alt="4 to 10 game, game not finished"/>
                     <img src="https://raw.githubusercontent.com/gscruz627/sum10/master/public/img_3.png" width="100%" alt="4 to 10 game, level finished"/>
                 </div>
@@ -121,15 +164,15 @@
         </div>
 
             <div>
-                <small>5.</small>
+                <small>7.</small>
                 <div>
                     <h3>QuizSpeech</h3>
                     <p>An application where users can login, register, and can create, delete, update and share, through
                         a search query, quizes. Quiz questions and answers can be read aloud using Javascript speech library.</p>
                     <small class="lower"> Javascript • ReactJS • Redux Toolkit • States/Hooks • MongoDB • ExpressJS • NodeJS • Javascript Speech Synthesis</small>
                     <br />
-                    <button class="image-toggle"><i class="fa-solid fa-image" onClick="toggleImage('img-c-5')"></i></button>
-                <div class="img-container" id="img-c-5" style="display:none">
+                    <button class="image-toggle"><i class="fa-solid fa-image" onClick="toggleImage('img-c-7')"></i></button>
+                <div class="img-container" id="img-c-7" style="display:none">
                     <img src="https://raw.githubusercontent.com/gscruz627/QuizSpeech/master/client/public/quiz1.png" width="100%" alt="Quiz app homepage"/>
                     <img src="https://raw.githubusercontent.com/gscruz627/QuizSpeech/master/client/public/quiz2.png" width="100%" alt="Quiz app, specific quiz"/>
                 </div>

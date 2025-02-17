@@ -127,4 +127,11 @@ section#projects .lower{
     section{
         width: 90%;
     }
+    section#head-container{
+        display:flex;
+        flex-direction: column;
+    }
+    section#head-container > div{
+        margin-left: 35px;
+    }
 }
